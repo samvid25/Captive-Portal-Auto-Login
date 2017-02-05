@@ -27,12 +27,12 @@ Make the 'login' shell script executable:
  $ chmod +x login
 ```
 
-Now whenever you want to log-on, use `./login` to automatically log-on.
+Now whenever you want to log-on, use `./login` to automatically log-on.  
 If you want to add the script to your path:
 ```
  $ sudo cp login /usr/local/bin
 ```
-And execute it from anywhere as
+And execute it from anywhere as:
 ```
  $ login
 ```
