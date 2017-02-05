@@ -4,7 +4,7 @@ A small python script to automatically login to the captive portal in the NITK's
 
 ## Pre-Requisites:
 Selenium library for Python (install using `$ pip install selenium`)  
-geckodriver for Firefox ([Download link](https://github.com/mozilla/geckodriver/releases)) 
+geckodriver for Firefox and added to PATH ([Download link](https://github.com/mozilla/geckodriver/releases)) 
 (support for Chrome coming soon)
 
 ## Usage:
@@ -28,7 +28,7 @@ Make the 'login' shell script executable:
 ```
 
 Now whenever you want to log-on, use `./login` to automatically log-on.  
-If you want to add the script to your path:
+If you want to add the script to your PATH:
 ```
  $ sudo cp login /usr/local/bin
 ```
