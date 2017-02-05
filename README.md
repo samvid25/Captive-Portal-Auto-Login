@@ -10,7 +10,7 @@ geckodriver for Firefox ([Download link](https://github.com/mozilla/geckodriver/
 ## Usage:
 ```
  $ git clone /https://github.com/samvid25/Captive-Portal-Auto-Login.git
- $ cd Captive-Portal-Auto-Login
+ $ cd Captive-Portal-Auto-Login/
  $ gedit login.py
 ```
 Replace "staff" with your username and password.
