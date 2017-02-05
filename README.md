@@ -15,7 +15,7 @@ geckodriver for Firefox (support for Chrome coming soon)
 Replace "staff" with your username and password:
 Save and exit.
 
-Replace /path/to/login.py with the path of login.py in your PC:
+Replace /path/to/login.py with the path to login.py in your PC:
 ```
  $ gedit login
 ```
@@ -30,6 +30,10 @@ Now whenever you want to log-on, use `./login` to automatically log-on.
 If you want to add the script to your path:
 ```
  $ sudo cp login /usr/local/bin
+```
+And execute it from anywhere as
+```
+ $ login
 ```
 
 
