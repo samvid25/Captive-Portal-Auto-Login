@@ -26,4 +26,4 @@ inputElement.send_keys("staff")
 
 driver.find_element_by_name("btnSubmit").click()
 
-driver.quit()
+driver.close()
