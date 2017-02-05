@@ -3,8 +3,9 @@ A small python script to automatically login to the captive portal in the NITK's
 
 
 ## Pre-Requisites:
-Selenium Webdriver library for Python  
-geckodriver for Firefox (support for Chrome coming soon)
+Selenium library for Python (install using `$ pip install selenium`)  
+geckodriver for Firefox ([Download link](https://github.com/mozilla/geckodriver/releases)) 
+(support for Chrome coming soon)
 
 ## Usage:
 ```
