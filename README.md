@@ -13,13 +13,13 @@ geckodriver for Firefox ([Download link](https://github.com/mozilla/geckodriver/
  $ cd Captive-Portal-Auto-Login
  $ gedit login.py
 ```
-Replace "staff" with your username and password:
+Replace "staff" with your username and password.
 Save and exit.
 
-Replace /path/to/login.py with the path to login.py in your PC:
 ```
  $ gedit login
 ```
+Replace /path/to/login.py with the path to login.py in your PC.
 Save and exit.
 
 Make the 'login' shell script executable:
