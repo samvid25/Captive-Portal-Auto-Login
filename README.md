@@ -8,7 +8,7 @@ geckodriver for Firefox (support for Chrome coming soon)
 
 ## Usage:
 ```
- $ git clone /https://github.com/samvid25\Captive-Portal-Auto-Login.git
+ $ git clone /https://github.com/samvid25/Captive-Portal-Auto-Login.git
  $ cd Captive-Portal-Auto-Login
  $ gedit login.py
 ```
