@@ -1,29 +1,26 @@
 import sys
+
 from selenium import webdriver
 
 
 driver = webdriver.Firefox()
 
 try: 
-	driver.get("http://10.10.54.4:8090/")
+	driver.get("https://nac.nitk.ac.in:8090/")
 except:
 	sys.exit(0)
 
-print driver.title
-print "Logged in"
+username = driver.find_element_by_name("username")
+username.clear()
 
+password = driver.find_element_by_name("password")
+password.clear()
 
-#username field
-inputElement = driver.find_element_by_name("username")
-#Replace "staff" with your username/registration number
-inputElement.send_keys("staff")
+username.send_keys("staff")
+password.send_keys("staff")
 
-#password field
-inputElement = driver.find_element_by_name("password")
-#Replace "staff" with your password
-inputElement.send_keys("staff")
+driver.find_element_by_id("loginbutton").click()
 
-
-driver.find_element_by_name("btnSubmit").click()
+print "Logged In."
 
 driver.close()
